@@ -57,6 +57,7 @@ var wordList = [
         function changeGuessWord(e) {
 			var newWord = wordList[Math.floor(Math.random()*wordList.length)];
             document.getElementById("guess").innerHTML = newWord;
+			navigator.notification.beep(2);
         }
 
         document.onclick = changeGuessWord;

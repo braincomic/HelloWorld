@@ -36,5 +36,8 @@
     <!-- Security Alert: Apache Cordova vulnerabilities in your Google Play app  -->
     <!-- 20/10/2016: update to cli-6.3.0 -->
     <preference name="phonegap-version" value="cli-8.0.0" />
+	
+	<plugin name="Notification" value="org.apache.cordova.Notification"/>
+
 
 </widget>
