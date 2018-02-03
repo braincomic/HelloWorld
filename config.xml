@@ -36,8 +36,11 @@
     <!-- Security Alert: Apache Cordova vulnerabilities in your Google Play app  -->
     <!-- 20/10/2016: update to cli-6.3.0 -->
     <preference name="phonegap-version" value="cli-8.0.0" />
+<<<<<<< HEAD
 	
 	<plugin name="cordova-plugin-dialogs"/>
 
+=======
+>>>>>>> parent of 1d4b81b... Beep
 
 </widget>
