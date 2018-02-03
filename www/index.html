@@ -33,11 +33,41 @@ body {
   
   </style>
   
+  <script>
+  
+var wordList = [
+    "Saab",
+    "Mercedes",
+    "Ford",
+    "Volvo",
+    "Citroen",
+    "Hyundai",
+    "Mazda",
+    "Honda",
+    "Peugeot",
+    "Renault",
+    "Volkswagen",
+    "Porche",
+    "Fiat",
+    "Dacia",
+    "Toyota",
+    "Seat",
+    "BMW"
+];
+        function changeGuessWord(e) {
+			var newWord = wordList[Math.floor(Math.random()*wordList.length)];
+            document.getElementById("guess").innerHTML = newWord;
+        }
+
+        document.onclick = changeGuessWord;
+		
+  </script>
+
 </head>
 
-<body>
+<body onclick="myFunction()">>
     <div class="app" id="guess">
-       Hello world.
+       Tap om woord te genereren!
    </div>
 </body>
 
