@@ -61,7 +61,14 @@ var wordList = [
         }
 
         document.onclick = changeGuessWord;
-		
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+document.getElementById("guess").innerHTML = "deviceReady";
+    console.log(navigator.notification);
+	navigator.notification.beep(2);
+}
+
+
   </script>
 
 </head>
