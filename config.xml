@@ -37,7 +37,7 @@
     <!-- 20/10/2016: update to cli-6.3.0 -->
     <preference name="phonegap-version" value="cli-8.0.0" />
 	
-	<plugin name="org.apache.cordova.Notification"/>
+	<plugin name="cordova-plugin-dialogs"/>
 
 
 </widget>
